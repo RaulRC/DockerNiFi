@@ -1,5 +1,5 @@
 FROM centos:latest
-MAINTAINER sunile manjee sunilemanjee@gmail.com
+MAINTAINER Raúl Reguillo raul.reguillo@gmail.com
 
 #install yum repos
 RUN yum update -y &&\
@@ -8,9 +8,9 @@ RUN yum update -y &&\
 ENV JAVA_HOME /usr/lib/jvm/jre-1.8.0-openjdk
 RUN export JAVA_HOME
 
-ENV NIFI_VERSION=1.0.0 \
+ENV NIFI_VERSION=1.3.0 \
         NIFI_HOME=/opt/nifi \
-        MIRROR_SITE=http://supergsego.com/apache
+        MIRROR_SITE=http://apache.rediris.es
 
 # Picked the recommended mirror from Apache for the distribution.
 # Import the Apache NiFi release keys, download the release, and set up a user to run NiFi.
