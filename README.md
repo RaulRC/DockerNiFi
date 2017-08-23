@@ -5,6 +5,7 @@ Info on this repo go to https://community.hortonworks.com/articles/69043/launchi
 
 * NiFi version: 1.3.0
 * Mirror: http://apache.rediris.es
+* Last update: 2017-08-23
 
 ```{r, engine='bash', count_lines}
 #Docker Build
