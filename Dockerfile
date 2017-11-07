@@ -1,5 +1,5 @@
 FROM centos:latest
-MAINTAINER Raúl Reguillo raul.reguillo@gmail.com
+MAINTAINER Raúl Reguillo raul.reguillo at gmail.com
 
 #install yum repos
 RUN yum update -y &&\
