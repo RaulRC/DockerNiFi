@@ -14,3 +14,14 @@ docker build -t rreguillo/nifi:<tag> .
 #Docker Run
 docker run -d -p 9090-9091:8080-8081 rreguillo/nifi:<tag>
 ```
+
+## BEEVA PoC
+
+* Slides
+* Script
+* Different PoC Topologies
+
+## BEEVA Course
+
+* Slides
+* Minimal PoC
